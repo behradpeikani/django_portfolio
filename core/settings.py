@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Local Apps
     'portfolio.apps.PortfolioConfig',
+    'blog.apps.BlogConfig',
     # Third-Party Packeges
     'debug_toolbar',
 ]
