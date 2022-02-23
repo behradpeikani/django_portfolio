@@ -20,7 +20,7 @@
 
                 <h5 class="card-title">{{ project.title }}</h5>
 
-                <p class="card-text">{{ project.description }}</p>
+                <p class="card-text">{{ project.description | truncatewords:30 }}</p>
 
                 <a href="{% url 'portfolio:project_detail' project.pk %}"
 
